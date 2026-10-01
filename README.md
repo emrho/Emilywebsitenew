@@ -13,9 +13,9 @@ Open `index.html` in a browser, or run `python3 -m http.server` and go to http:/
 ## Publish on your domain (GitHub Pages, free)
 
 1. On GitHub, go to **Settings → Pages**. Set the source to **Deploy from a branch**, then choose `master` / `root`.
-2. In the same screen, enter your domain under **Custom domain**. This adds a `CNAME` file.
+2. The `CNAME` file already sets the custom domain to `emrhodes.com`. Confirm it shows under **Custom domain** in the same screen.
 3. At your domain registrar, add DNS records:
-   - Apex domain (`example.com`): `A` records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`
+   - Apex domain (`emrhodes.com`): `A` records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`
    - `www`: a `CNAME` record pointing to `emrho.github.io`
 4. Once DNS has propagated, tick **Enforce HTTPS**.
 
